@@ -1,5 +1,5 @@
 # Deep-Image-Clustering-Using-Convolutional-Autoencoder-Embedding-with-Inception-like-Block
-These code are used for Minist dataset based on Tensoflow and python. The contributions of this study can be summarized as follows:
+Some codes of our conference paper Deep Image Clustering Using Convolutional Autoencoder Embedding with Inception-like Block. These codes are used for Minist dataset based on Tensoflow and python. The contributions of this study can be summarized as follows:
 1) A Convolutional AutoEncoder with Iception-like block (CAEI) using an inception-like block is proposed for image feature learning. The CAEI network consists entirely of convolutional layers (including convolutional and deconvolutional layers). And it can be trained end-to-end. This avoids the tedious and time-consuming layer-by-layer training phase of traditional stacked autoencoder networks.
 2) A DCECI algorithm is proposed for automatic image clustering. DCECI combines the advantages of the CAE network structure, retains the local structure information of the image, and fuses a variety of convolutional features. The network can be trained by optimizing both the input reconstruction loss and clustering loss.
 3) Comprehensive experimental results on multiple datasets, such as MINIST, USPS, Cifar-10 and STL-10, demonstrate the effectiveness and efficiency of proposed DCECI.
